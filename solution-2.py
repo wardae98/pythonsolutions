@@ -18,11 +18,3 @@ def withdraw(amount):
             notes[1] += 1
         notes[0] += int(amount / 100)
     return notes
-print(withdraw(3930))
-print(withdraw(250))
-print(withdraw(260))
-print(withdraw(370))
-print(withdraw(230))
-print(withdraw(80))
-print(withdraw(40))
-print(withdraw(50))
