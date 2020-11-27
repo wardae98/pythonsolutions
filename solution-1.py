@@ -3,9 +3,6 @@
 #1: 
 def get_middle(str):
     return str[(len(str)-1)//2:(len(str)+2)//2]
-print(get_middle("middle"))
-print(get_middle("test"))
-print(get_middle("testing"))
 
 #2:
 def get_middle(str):
@@ -15,9 +12,6 @@ def get_middle(str):
         return left, right
     else:
         return str[len(str)//2]
-print(get_middle("middle"))
-print(get_middle("test"))
-print(get_middle("testing"))
 
 
 
