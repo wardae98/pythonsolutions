@@ -7,4 +7,4 @@ def solution(N):
         print(answer)
     else:
         print(answer * 10)
-solution(35)
+
