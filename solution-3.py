@@ -21,7 +21,3 @@ def similar_license_plates(plate1,plate2):
         return True
     else:
         return False
-print(similar_license_plates("DEF", "D E F"))
-print(similar_license_plates("DOF", "D Q F"))
-print(similar_license_plates("D8F", "D B F"))
-print(similar_license_plates("D8F", "F8D"))
